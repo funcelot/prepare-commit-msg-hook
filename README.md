@@ -6,7 +6,7 @@ Example of installation and using prepare-commit-msg hook in any repository
 - Windows
 
 ```bash
-.\.hooks\install-prepare-commit-msg-hook.ps1
+powershell -File .hooks\install-prepare-commit-msg-hook.ps1
 ```
 
 - Linux
