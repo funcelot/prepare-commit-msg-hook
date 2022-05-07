@@ -6,11 +6,11 @@ Example of installation and using prepare-commit-msg hook in any repository
 - Windows
 
 ```bash
-.\.hooks\install-prepare-commit-msg-hook.ps1
+.\.hooks\install-prepare-commit-msg-hook-sh.ps1
 ```
 
 - Linux
 
 ```bash
-pwsh .\.hooks\install-prepare-commit-msg-hook.ps1
+.\.hooks\install
 ```
