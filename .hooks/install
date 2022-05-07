@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo installing prepare-commit-msg hook;
+
+cp .hooks/prepare-commit-msg-sh .git/hooks/prepare-commit-msg;
+case "$(uname -s)" in
+    Darwin*|Linux*) # nix
+        chmod u+x .git/hooks/prepare-commit-msg;;
+    CYGWIN*|MSYS*|MINGW*) #windows
+        ;;
+    *) # other unknown
+        echo unknown system - installation may be incomplete;;
+esac
