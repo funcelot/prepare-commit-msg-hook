@@ -6,7 +6,7 @@ Example of installation and using prepare-commit-msg hook in any repository
 - Windows
 
 ```bash
-.\.hooks\install-prepare-commit-msg-hook-sh.ps1
+powershell -File .hooks\install-prepare-commit-msg-hook.ps1
 ```
 
 - Linux
@@ -14,3 +14,12 @@ Example of installation and using prepare-commit-msg hook in any repository
 ```bash
 .\.hooks\install
 ```
+
+```
+pwsh .\.hooks\install-prepare-commit-msg-hook.ps1
+```
+
+## Prerequisites
+
+- PowerShell 7.2
+https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2
